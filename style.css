@@ -1,0 +1,51 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Band name text */
+p {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Stylish button-like link */
+a[href="/submit"] {
+    padding: 14px 28px;
+    background-color: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a[href="/submit"]:hover {
+    background-color: #006ad1;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 14px;
+    color: #777;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05);
+}
