@@ -20,19 +20,6 @@ A simple web app built with **Node.js**, **Express**, and **EJS** that generates
 - [EJS](https://ejs.co/)
 - HTML + CSS (custom styling)
 
----
-
-## 📁 Project Structure
-
-project-root/
-├── app.js # Main Express server
-├── public/
-│ └── style.css # Styling for the app
-├── views/
-│ ├── index.ejs # Main template
-│ └── footer.ejs # Included footer template
-└── README.md # This file
-
 
 ---
 
